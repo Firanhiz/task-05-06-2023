@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Grenze+Gotisch&family=Lemon&family=Lexend+Zetta&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mogra&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./reset.css);
+
+body {
+    background-color: rgb(218, 218, 218);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 640px;
+    height: 464px;
+    margin: 100px auto;
+
+}
+
+.div {
+    width: 100%;
+    box-shadow: 0px 14px 52px -20px #8675B4;
+    border-radius: 24px;
+    background-color: white;
+    padding: 72px;
+    position: relative;
+}
+
+.div::before {
+    content: '';
+    width: 421px;
+    height: 613px;
+    position: absolute;
+    top: -75px;
+    right: -109px;
+    bottom: 74px;
+    left: 110px; 
+    z-index: -1;
+    background: #EFEBFD;
+    border-radius: 31px;
+
+}
+
+
+/* .div1 */
+.div1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.div1 .div-search {
+    width: 348px;
+    height: 56px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #DBD5EC;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.div-search figure {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.div-search figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-search input {
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(40, 26, 81, 0.54);
+}
+
+.div1 .div-map {
+    width: 136px;
+    height: 56px;
+    
+    background: #281A51;
+    border-radius: 4px;
+}
+
+.div-map button, .div-map button span {
+    display: inline-block;
+}
+
+.div1 button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #281A51;
+    border: none;
+    padding: 16px;
+}
+
+.div-map button :nth-child(2) {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+/* .div1 */
+
+
+/* .div2-3 */
+.div2-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.box {
+    width: 112px;
+    height: 108px;
+    line-height: 24px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.div2-3 :nth-child(1) {
+    background: #FFECEC;
+}
+
+.div2-3 :nth-child(2) {
+    background: #F7ECFF;
+}
+
+.div2-3 :nth-child(3) {
+    background: #ECF0FF;
+}
+
+.div2-3 :nth-child(4) {
+    background: #D7F9F3;
+}
+
+.div2-3 :nth-child(5) {
+    background: #E2FFD5;
+}
+
+.div2-3 :nth-child(6) {
+    background: #FFFFFF;
+}
+
+.div2-3 :nth-child(7) {
+    background: #FFF3C9;
+}
+
+.div2-3 :nth-child(8) {
+    background: #FFD9C9;
+}
+
+/* .div2 */
